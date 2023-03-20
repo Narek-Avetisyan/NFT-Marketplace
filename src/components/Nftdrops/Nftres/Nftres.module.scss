@@ -1,0 +1,518 @@
+.container{
+    // width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    .wrapBlock{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .heading{
+        text-align: center;
+        margin-bottom: 60px;
+        
+        h1{
+            font-weight: 700;
+            font-size: 96px;
+            line-height: 80px;
+            letter-spacing: -0.014em;
+            background: linear-gradient(89.62deg, #06045B 7.09%, #E01E5A 92.23%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+        h2{
+            font-weight: 500;
+            font-size: 44px;
+            line-height: 48px;
+            color: #FFFFFF;
+            margin-top: -110px;
+
+        }
+    }
+    
+    .leftBlock{
+
+        // width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        padding-bottom: 130px;
+        margin-right:0 ;
+        img{
+            width: 100%;
+        }
+        
+
+        .startBlock1{
+            position: absolute;
+            bottom: 60px;
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            padding: 32px;
+            width: 572px;
+            background: #1E1B33;             
+            border-radius: 8px;
+            // width: 100%;
+            .wraper{
+
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-bottom: 20px;
+                
+            }
+           
+            button{
+                padding: 8px 24px;
+                gap: 10px;
+                position: absolute;
+                width: 150px;
+                height: 30px;
+                background: linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%);
+                border: 0.5px solid rgba(231, 231, 231, 0.4);
+                border-radius: 8px;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 14px;
+                text-align: center;
+                text-transform: capitalize;
+                color: #FFFFFF;
+                cursor: pointer;
+            }
+
+            .commentBlock{
+                display: flex;
+                align-items: center;
+                
+            }
+
+            a{
+                margin-left: 170px;
+                display: block;
+                line-height: 0;
+                cursor: pointer;
+            }
+            .comment{
+                margin-left: 4px;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 14px;
+                text-align: center;
+                text-transform: capitalize;
+                color: #FFFFFF;
+            }
+            .txt{
+                font-weight: 500;
+                font-size: 22px;
+                line-height: 28px;
+                color: #FFFFFF;
+            }
+
+            .userBlock{
+                display: flex;
+                align-items: center;
+                margin-top: -25px;
+                
+                .userImg{
+                    padding-top: 40px;
+                    padding-right: 16px;
+                    
+                }
+                .userBlockInfo{
+                   
+                    
+                    p{
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: #FFFFFF;
+                        padding-top: 20px;
+
+                    }
+
+                    span{
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 12px;
+                        color: #C0C0C0;
+                    }
+                }
+            }
+        }
+        
+
+    }
+    
+    .rightBlock{
+        width: 50%;
+        padding-left: 12px;
+       
+        
+        .columns{
+          
+        }
+        .column1{
+            width: 100%;
+            margin-bottom: 24px;
+            padding: 32px;
+            display: flex;
+            // width: 660px;
+            // height: 216px;
+            background: #1E1B33;
+            border-radius: 8px;
+            img{}
+           
+            .buttonsBlock{
+                margin-left: 24px;
+                display: flex;
+                align-items: center;
+                button{
+                    width: 87px;
+                    height: 30px;
+                    background: linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%);
+                    border: 0.5px solid rgba(231, 231, 231, 0.4);
+                    border-radius: 8px;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 14px;
+                    text-align: center;
+                    text-transform: capitalize;
+                    color: #FFFFFF;
+                    margin-right: 12px;   
+                    border: none;
+                    cursor: pointer;                
+                }
+                .nftButton{
+                    padding: 8px 24px;
+                    gap: 10px;
+                    width: 114px;
+                    height: 30px;
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 14px;
+
+                    text-align: center;
+                    text-transform: capitalize;
+
+                    color: #FFFFFF;
+                }
+                span{
+                    display: flex;
+                    align-items: center;
+                   
+                    img{
+                        padding-right: 6px;
+                        line-height: 0;
+                        cursor: pointer;
+                    }
+                    span{
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 14px;
+                        text-align: center;
+                        text-transform: capitalize;
+                        color: #FFFFFF;
+                    }
+                    
+                }
+            }
+            p{
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 28px;
+                color: #FFFFFF;
+                margin-left: 24px;
+            }
+            .userSubBlock{
+                margin-left: 24px;
+               display: flex;
+               align-items: center;
+               a{
+                display: block;
+                line-height: 0;
+                margin-right: 16px;
+               }
+               .userName{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                color: #FFFFFF;
+                padding-bottom: 4px;
+               }
+               .userDate{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 12px;
+                color: #C0C0C0;
+               }
+            }
+        }
+    }
+
+    
+}
+
+@media (max-width: 1400px){
+    .container{
+        width: 100%;
+        // max-width: 100%;
+        margin: 0 auto;
+        .wrapBlock{
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .heading{
+            text-align: center;
+            margin-bottom: 60px;
+            
+            h1{
+                font-weight: 700;
+                font-size: 85px;
+                line-height: 80px;
+                letter-spacing: -0.014em;
+                background: linear-gradient(89.62deg, #06045B 7.09%, #E01E5A 92.23%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-fill-color: transparent;
+            }
+            h2{
+                font-weight: 500;
+                font-size: 35px;
+                line-height: 48px;
+                color: #FFFFFF;
+                margin-top: -105px;
+    
+            }
+        }
+        
+
+
+        .leftBlock{
+            width: 50%;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            padding-bottom: 130px;
+            margin-right:0 ;
+            img{
+                width: 100%;
+            }
+            .startBlock1{
+                position: absolute;
+                bottom: 78px;
+                display: flex;
+                flex-direction: column;
+                align-items: stretch;
+                padding: 28px;
+                width: 500px;
+                background: #1E1B33;             
+                border-radius: 8px;
+                // width: 100%;
+                .wraper{
+
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding-bottom: 20px;
+                    
+                }
+               
+                button{
+                    padding: 8px 24px;
+                    gap: 10px;
+                    position: absolute;
+                    width: 150px;
+                    height: 30px;
+                    background: linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%);
+                    border: 0.5px solid rgba(231, 231, 231, 0.4);
+                    border-radius: 8px;
+                    font-weight: 500;
+                    font-size: 13px;
+                    line-height: 14px;
+                    text-align: center;
+                    text-transform: capitalize;
+                    color: #FFFFFF;
+                    cursor: pointer;
+                }
+    
+                .commentBlock{
+                    display: flex;
+                    align-items: center;
+                    
+                }
+    
+                a{
+                    margin-left: 170px;
+                    display: block;
+                    line-height: 0;
+                    cursor: pointer;
+                }
+                .comment{
+                    margin-left: 4px;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 14px;
+                    text-align: center;
+                    text-transform: capitalize;
+                    color: #FFFFFF;
+                }
+                .txt{
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 28px;
+                    color: #FFFFFF;
+                }
+    
+                .userBlock{
+                    display: flex;
+                    align-items: center;
+                    margin-top: -25px;
+                    
+                    .userImg{
+                        padding-top: 40px;
+                        padding-right: 16px;
+                        
+                    }
+                    .userBlockInfo{
+                       
+                        
+                        p{
+                            font-weight: 500;
+                            font-size: 15px;
+                            line-height: 20px;
+                            color: #FFFFFF;
+                            padding-top: 20px;
+    
+                        }
+    
+                        span{
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 12px;
+                            color: #C0C0C0;
+                        }
+                    }
+                }
+            }
+        }
+        .rightBlock{
+            width: 50%;
+            padding-left: 12px;
+           
+            
+            .columns{
+              
+            }
+            .column1{
+                width: 100%;
+                margin-bottom: 24px;
+                padding: 32px;
+                display: flex;
+                // width: 660px;
+                // height: 190px;
+                background: #1E1B33;
+                border-radius: 8px;
+                .startImg{
+                    img{
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+               
+                .buttonsBlock{
+                    margin-left: 24px;
+                    display: flex;
+                    align-items: center;
+                    button{
+                        width: 87px;
+                        height: 30px;
+                        background: linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%);
+                        border: 0.5px solid rgba(231, 231, 231, 0.4);
+                        border-radius: 8px;
+                        font-weight: 500;
+                        font-size: 12px;
+                        line-height: 14px;
+                        text-align: center;
+                        text-transform: capitalize;
+                        color: #FFFFFF;
+                        margin-right: 12px;   
+                        border: none;
+                        cursor: pointer;                
+                    }
+                    .nftButton{
+                        padding: 8px 24px;
+                        gap: 10px;
+                        width: 95px;
+                        height: 30px;
+                        font-weight: 500;
+                        font-size: 9px;
+                        line-height: 14px;
+                        text-align: center;
+                        text-transform: capitalize;
+                        color: #FFFFFF;
+                    }
+                    span{
+                        display: flex;
+                        align-items: center;
+                       
+                        img{
+                            padding-right: 6px;
+                            line-height: 0;
+                            cursor: pointer;
+                        }
+                        span{
+                            font-weight: 500;
+                            font-size: 12px;
+                            line-height: 14px;
+                            text-align: center;
+                            text-transform: capitalize;
+                            color: #FFFFFF;
+                        }
+                        
+                    }
+                }
+                p{
+                    font-weight: 500;
+                    font-size: 21px;
+                    line-height: 28px;
+                    color: #FFFFFF;
+                    margin-left: 24px;
+                }
+                .userSubBlock{
+                    margin-left: 24px;
+                   display: flex;
+                   align-items: center;
+                   a{
+                    display: block;
+                    line-height: 0;
+                    margin-right: 16px;
+                   }
+                   .userName{
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: #FFFFFF;
+                    padding-bottom: 4px;
+                   }
+                   .userDate{
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 12px;
+                    color: #C0C0C0;
+                   }
+                }
+            }
+        }
+        
+        
+    }
+}
+

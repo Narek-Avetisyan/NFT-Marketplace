@@ -1,0 +1,231 @@
+.main{
+       
+}
+
+.container{
+    
+    width: 80%;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    .leftBlock{
+         width: 675px; 
+         position: relative;
+         display: flex;
+         flex-direction: column;
+        //  align-items: stretch;
+        .firstText{
+            width: 739px;
+            height: 160px;
+            margin-top: 150px;
+            span{
+                font-weight: 700;
+                font-size: 64px;
+                line-height: 80px;
+                letter-spacing: -0.030em;
+                color: #FFFFFF;
+                span{
+                    background: -webkit-linear-gradient(#0500FA, #E01E5A );
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+        }
+        .secondText{
+            margin-top: 20px;
+            margin-bottom: 40px;
+            p{
+                font-weight: 300;
+                font-size: 24px;
+                line-height: 156%;
+                color: #FFFFFF;
+                width: 621px;
+            }
+        }
+        
+
+        .buttons{
+            .firstBut{
+                width: 119px;
+                height: 45px;
+                background: linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%);
+                border-radius: 8px;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                color: #FFFFFF;
+                padding: 11px 32px;
+                margin-right: 12px;
+                cursor: pointer;
+            }& 
+            
+
+            .secondBut{
+                width: 114px;
+            height: 44px;
+            background: #1E1B33;
+            border: 1px solid rgba(231, 231, 231, 0.4);
+            border-radius: 8px;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            color: #FFFFFF;
+            cursor: pointer;
+            }& :hover{
+                background: linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%);
+            }
+        }
+        
+        
+        .videoBlock{
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+            
+            span{
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                color: #FFFFFF;
+                margin-left: 8px;
+            }
+            img{
+                cursor: pointer;
+            }
+        }
+
+        .subImgs{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            
+        }
+
+    }
+
+
+    .rightBlock{
+        width: 466px;
+        padding-left: 30px;
+        img{
+            width: 100%;
+        }
+        .mainNft{
+            display: flex;
+            align-items: center;
+            flex-direction: row-reverse;
+            .nftimg{
+                margin-left: -80px;
+            }
+            .arrow{
+                z-index: 2;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.subContainer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 105px;
+    border-bottom: 1px solid rgba(231, 231, 231, 0.24);
+    padding-bottom: 80px;
+    
+    
+    
+    .firstSubText{
+        width: 467px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    color: #FFFFFF;
+
+    }
+    .nftTextGradient{
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: -0.014em;
+        background: linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent; 
+        p{
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: -0.014em;
+            color: #FFFFFF;
+        }
+     }
+
+     .nftText{
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 40px;
+            letter-spacing: -0.014em;
+            color: #7040F2;
+            p{
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                letter-spacing: -0.014em;
+                color: #FFFFFF;
+            }
+            
+
+     }
+     
+}
+
+@media  (max-width: 1400px) {
+    .container{
+        width: 80%;
+        .leftBlock{
+            .firstText{
+                margin-top: 100px;
+                span{
+                    font-size: 50px;
+                }
+                
+            }
+            .secondText{
+                margin-top: 20px;
+                margin-bottom: 35px;
+                p{
+                    font-weight: 300;
+                    font-size: 20px;
+                    line-height: 150%;
+                    color: #FFFFFF;
+                    width: 621px;
+                }
+            }
+           }
+    }
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

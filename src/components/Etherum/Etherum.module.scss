@@ -1,0 +1,133 @@
+.mainEtherum{
+}
+
+.container{
+    display: none;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .etherum{
+        margin-top: 132px;
+        margin-bottom: 150px;
+        position: relative;
+        margin-right: auto;
+        margin-right: 30px;
+        .elipse{
+            position: absolute;
+            top: -300px;
+            left: -350px;
+        }
+    }
+    .etherumInfo{
+        margin-left: auto;
+        margin-left: 30px;
+        .createNft{
+            width: 685px;
+            height: 104px;
+            font-weight: 500;
+            font-size: 44px;
+            line-height: 52px;
+            color: #FFFFFF;
+            margin-bottom: 28px;
+        }
+        .sellNft{
+            width: 755px;
+            height: 96px;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 32px;
+            color: #C0C0C0;
+            margin-bottom: 28px;
+        }
+        .walletBtn{
+
+            button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding: 12px 20px;
+                gap: 10px;
+                width: 155px;
+                height: 44px;
+                background: linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%);
+                border-radius: 8px;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                color: #FFFFFF;
+                cursor: pointer;
+            }
+            
+        }
+    }
+}
+
+@media (max-width: 1400px){
+
+    .container{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .etherum{
+            margin-top: 132px;
+            margin-bottom: 150px;
+            position: relative;
+            margin-right: auto;
+            margin-right: 30px;
+            img{
+                width: 100%;
+            }
+            .elipse{
+                position: absolute;
+                top: -50px;
+                left: -50px;
+            }
+        }
+        .etherumInfo{
+            margin-left: auto;
+            margin-left: 30px;
+            .createNft{
+                width: 685px;
+                height: 104px;
+                font-weight: 500;
+                font-size: 40px;
+                line-height: 52px;
+                color: #FFFFFF;
+                margin-bottom: 28px;
+            }
+            .sellNft{
+                width: 650px;
+                height: 96px;
+                font-weight: 300;
+                font-size: 15px;
+                line-height: 32px;
+                color: #C0C0C0;
+                margin-bottom: 28px;
+            }
+            .walletBtn{
+    
+                button{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 12px 20px;
+                    gap: 10px;
+                    width: 150px;
+                    height: 44px;
+                    background: linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%);
+                    border-radius: 8px;
+                    font-weight: 500;
+                    font-size: 15px;
+                    line-height: 20px;
+                    color: #FFFFFF;
+                    cursor: pointer;
+                }
+                
+            }
+        }
+    }
+}

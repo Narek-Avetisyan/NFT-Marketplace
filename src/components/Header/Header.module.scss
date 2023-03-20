@@ -1,0 +1,108 @@
+.header{
+    background: #04011C;
+    box-shadow: 0px 20px 40px rgba(205, 28, 104, 0.08); ;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 52px;
+    // display: none;
+    .container{
+        
+        width: 80%;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .logo {
+                     img{
+                            width: 100%;
+                            cursor: pointer;
+               }
+            
+        }
+
+        .navbar{
+            margin-left: auto;
+            a{
+                text-decoration: none;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 20px;
+                color: #FFFFFF;
+                margin-left: 18px;
+                margin-right: 18px;
+                transition: 0.3s;
+            }&:hover{
+                color: purple;
+            }
+        }
+
+        .search{
+            display: flex ;
+            align-items: center;
+            position: relative;
+            margin-left: auto;
+            input{
+                width: 185px;
+                height: 44px;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                color: rgba(255, 255, 255, 0.59);
+                background: #1E1B33;
+                border: 1px solid rgba(231, 231, 231, 0.4);
+                border-radius: 8px;
+                padding-left: 16px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+            }
+            .inputlogo{
+                position: absolute;
+                right: 15px;
+                top: 14px;
+                cursor: pointer;
+            }
+        }
+        .button{
+            button{
+                width: 128px;
+                height: 44px;
+                background: linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%);
+                border-radius: 8px;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 20px;
+                color: #FFFFFF;
+                margin-left: 20px;
+                cursor: pointer;   
+                transition: 0.5s;
+            }& :hover{
+                background: blue;
+            }
+        }
+        
+    }
+}
+
+@media  (max-width: 1400px) {
+   
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+

@@ -1,0 +1,104 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.drop{   
+    background: #1E1B33;
+    border-radius: 12px;
+    padding: 24px;
+    width: 312px;
+    
+    .dropCenter{
+        text-align: center;
+        margin: 0 auto;
+        .dropImg{
+           img{
+            object-fit: cover;
+            width: 100%;
+           }
+        }
+
+    }
+        
+    .dropText{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        p{
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 120%;
+            color: #FFFFFF;
+        }
+        span{
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 0;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+        img{
+            margin-right: 4px;
+        }
+    }
+
+    .dropSubText{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        p{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            color: #FFFFFF;
+            margin-right: auto;
+        }
+        img{
+            margin-right: 4px;
+        }
+
+        div{
+            img{
+                margin-right: 0;
+            }
+        }
+
+    }
+
+    .dropButton{
+        // width: 100%;
+        padding-top: 24px;
+        button{
+            width: 100%;
+            // width: 264px;
+            height: 38px;
+            background: #1E1B33;
+            border: 1px solid rgba(231, 231, 231, 0.4);
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 14px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            cursor: pointer;
+            
+        }& :hover{
+            background: linear-gradient(89.62deg, #0500FA 7.09%, #E01E5A 92.23%);
+        }
+    }
+}
+
+@media (max-width: 1400px){
+    .container{
+        width: 100%;
+        .drop{
+            width: 260px;
+        }
+    }
+}

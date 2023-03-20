@@ -1,0 +1,167 @@
+.container{
+
+    .heading{
+        text-align: center;
+        margin-bottom: 60px;
+        
+        h1{
+            font-weight: 700;
+            font-size: 96px;
+            line-height: 80px;
+            letter-spacing: -0.014em;
+            background: linear-gradient(89.62deg, #06045B 7.09%, #E01E5A 92.23%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+        h2{
+            font-weight: 500;
+            font-size: 44px;
+            line-height: 48px;
+            color: #FFFFFF;
+            margin-top: -110px;
+
+        }
+    }
+   
+    .trendFlex{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .trend{
+        background: #1E1B33;
+        border-radius: 12px;
+        padding: 24px;
+        width: 312px;
+        .trendCenter{
+            // width: 264px;
+            text-align: center;
+            margin: 0 auto;
+            .trendImg{
+                img{
+                    width: 100%;                
+
+                }
+            }
+            .trendText{
+                text-align: left;
+                margin-bottom: 16px;
+                p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 16px;
+                    color: #FFFFFF;  
+                }
+                span{
+                    font-weight: 500;
+                    font-size: 24px;
+                    line-height: 120%;
+                    color: #FFFFFF;
+                }
+               
+            }
+
+            .trendSubText{
+                width: 100%;
+                padding-bottom: 8px;
+                padding-left: 8px;
+                padding-right: 8px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                // width: 264px;
+                height: 70px;
+                background: #211D38;
+                border: 0.5px solid rgba(231, 231, 231, 0.4);
+                border-radius: 8px;
+                .firstText{
+                    p{
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 14px;
+                        text-align: center;
+                        text-transform: capitalize;
+                        color: #C0C0C0;
+                        text-align: left;
+                    }
+                    div{
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 14px;
+                        text-align: center;
+                        text-transform: capitalize;
+                        color: #FFFFFF;
+                    }
+                    
+
+                }
+
+                .secondText{
+                    p{
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 14px;
+                        text-align: center;
+                        text-transform: capitalize;
+                        color: #C0C0C0;
+                    }
+
+                    span{
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 14px;
+                        text-align: center;
+                        text-transform: capitalize;
+                        color: #FFFFFF;
+
+
+                    }
+                }
+            }
+        
+        }
+    }
+}
+
+@media (max-width: 1400px){
+    .container{
+
+        .heading{
+           
+            h1{
+                font-weight: 700;
+                font-size: 85px;
+                line-height: 80px;
+                letter-spacing: -0.014em;
+                background: linear-gradient(89.62deg, #06045B 7.09%, #E01E5A 92.23%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-fill-color: transparent;
+            }
+            h2{
+                font-weight: 500;
+                font-size: 35px;
+                line-height: 48px;
+                color: #FFFFFF;
+                margin-top: -105px;
+    
+            }
+        }
+
+        .trend{
+            background: #1E1B33;
+            border-radius: 12px;
+            padding: 24px;
+            width: 260px;
+        }
+    }
+}
+
+
+
+
+
